@@ -165,6 +165,7 @@
 
 .section__modal .modal-form__checkbox .form-check-input {
     margin-right: 10px;
+    border: 2px solid #323232;
 }
 
 .section__modal .modal-form__checkbox .form-check-input:checked {
