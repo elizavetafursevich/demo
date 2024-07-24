@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "ManropeMedium";
+    src: url("../fonts/Manrope/ManropeMedium.eot");
+    src: url("../fonts/Manrope/ManropeMedium.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Manrope/ManropeMedium.woff") format("woff"),
+    url("../fonts/Manrope/ManropeMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "ManropeRegular";
+    src: url("../fonts/Manrope/ManropeRegular.eot");
+    src: url("../fonts/Manrope/ManropeRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Manrope/ManropeRegular.woff") format("woff"),
+    url("../fonts/Manrope/ManropeRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
