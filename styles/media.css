@@ -36,6 +36,49 @@
     .section__info {
         padding: 20px!important;
     }
+
+    .section__modal .modal-form__login .form-control {
+        height: 48px;
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .section__modal .modal-form__login .form-control:focus,
+    .section__modal .modal-form__login .form-control:focus-within {
+        font-size: 14px;
+    }
+
+    .section__modal .modal-form__login .form-control:-webkit-autofill,
+    .section__modal .modal-form__login .form-control:-webkit-autofill:hover,
+    .section__modal .modal-form__login .form-control:-webkit-autofill:focus {
+        -webkit-box-shadow: 0 0 0 58px #D7E2F6 inset !important;
+    }
+
+    .section__modal .modal-form__login .form-control::-webkit-input-placeholder {
+        font-size: 14px;
+    }
+
+    .section__modal .modal-form__title {
+        font-size: 20px;
+    }
+
+    .section__modal .modal-form__checkbox {
+        font-size: 14px;
+    }
+
+    .section__modal .modal-form__link.btn-link {
+        font-size: 14px;
+    }
+
+    .section__modal .modal-form__submit {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .section__modal .modal-form__register {
+        padding: 10px;
+        font-size: 14px;
+    }
 }
 
 @media all and (max-width: 366.99px){
