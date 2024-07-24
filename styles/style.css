@@ -97,3 +97,120 @@
     object-fit: cover;
     border-radius: 0 10px 10px 0;
 }
+
+.section__modal .modal-content {
+    padding: 20px;
+    background-color: #F0F4FC;
+}
+
+.section__modal .modal-content__close.btn-light {
+    padding: 10px;
+    margin-left: auto;
+    background-size: 12px;
+    background-color: white;
+    opacity: 1;
+}
+
+.section__modal .modal-content__close.btn-light:hover {
+    opacity: 0.6;
+}
+
+.section__modal .modal-form__login .form-control {
+    height: 68px;
+    padding: 20px;
+    margin: 3px 0;
+    font-family: ManropeMedium, sans-serif;
+    font-size: 18px;
+    color: #1F4284;
+    background-color: #D7E2F6;
+}
+
+.section__modal .modal-form__login .form-control:focus,
+.section__modal .modal-form__login .form-control:focus-within {
+    font-family: ManropeMedium, sans-serif;
+    font-size: 18px;
+    color: #1F4284;
+}
+
+.section__modal .modal-form__login .form-control:-webkit-autofill,
+.section__modal .modal-form__login .form-control:-webkit-autofill:hover,
+.section__modal .modal-form__login .form-control:-webkit-autofill:focus {
+    -webkit-text-fill-color: #1F4284;
+    -webkit-box-shadow: 0 0 0 68px #D7E2F6 inset !important;
+}
+
+.section__modal .modal-form__login .form-control::-webkit-input-placeholder {
+    font-family: ManropeMedium, sans-serif;
+    font-size: 18px;
+    color: #1F4284;
+}
+
+.section__modal .modal-form__login {
+    display: flex;
+    flex-direction: column;
+}
+
+.section__modal .modal-form__title {
+    margin-bottom: 20px;
+    font-family: ManropeMedium, sans-serif;
+    font-size: 24px;
+    color: #323232;
+}
+
+.section__modal .modal-form__checkbox {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #323232;
+}
+
+.section__modal .modal-form__checkbox .form-check-input {
+    margin-right: 10px;
+}
+
+.section__modal .modal-form__checkbox .form-check-input:checked {
+    background-color: #244C98;
+    border-color: #244C98;
+}
+
+.section__modal .modal-form__link.btn-link {
+    width: fit-content;
+    padding: 0;
+    margin-bottom: 30px;
+    font-family: ManropeMedium, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    text-decoration: none;
+    color: #244C98;
+}
+
+.section__modal .modal-form__submit {
+    padding: 20px;
+    font-family: ManropeMedium, sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: #244C98;
+    border: 1px solid #244C98;
+    border-radius: 4px;
+}
+
+.section__modal .modal-form__submit:hover {
+    background-color: #244C98;
+    opacity: 0.9;
+}
+
+.section__modal .modal-form__register {
+    padding: 20px;
+    margin-top: 6px;
+    font-family: ManropeMedium, sans-serif;
+    font-size: 18px;
+    color: #244C98;
+    border: 1px solid #244C98;
+    border-radius: 4px;
+}
+
+.section__modal .modal-form__register:hover {
+    color: #244C98;
+    background: #D7E2F6;
+    opacity: 0.9;
+    border: 1px solid #244C98;
+}

@@ -15,7 +15,7 @@
                 <h3 class="info__title">Демо-версия</h3>
                 <div class="info__text">За 18 лет деятельности было реализовано более 500 крупных, а так же, не менее 2500 средних
                     и малых проектов. Используя знания и накопленный опыт мы можем предложить </div>
-                <button type="button" class="info__btn">
+                <button type="button" class="info__btn" data-bs-toggle="modal" data-bs-target="#loginForm">
                     <span class="btn__text">Попробовать бесплатно</span>
                     <span class="btn__arrow"><img src="images/icons/arrow-up-right.svg" alt="arrow up right"/></span>
                 </button>
@@ -23,6 +23,31 @@
         </div>
         <div class="section__image col-12 col-xl-6">
             <img src="images/pc.png" alt="pc image">
+        </div>
+    </div>
+    <div class="section__modal modal fade" id="loginForm" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <button type="button" class="modal-content__close btn btn-light btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-form">
+                    <h3 class="modal-form__title">Войти в систему</h3>
+                    <form class="modal-form__login">
+                        <label>
+                            <input type="text" class="form-control" id="login" placeholder="Email/Телефон">
+                        </label>
+                        <label>
+                            <input type="password" class="form-control" id="password" placeholder="Пароль">
+                        </label>
+                        <label class="modal-form__checkbox">
+                            <input class="form-check-input" type="checkbox" id="remember">
+                            Запомнить пароль
+                        </label>
+                        <button type="button" class="modal-form__link btn btn-link">Восстановить</button>
+                        <button type="submit" class="modal-form__submit">Войти</button>
+                        <button type="button" class="modal-form__register">Зарегистрироваться</button>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
 </div>
